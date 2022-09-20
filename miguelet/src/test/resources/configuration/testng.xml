@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Api Rest" verbose="1" >
+
+<test name="Api REST" >
+
+    <packages >
+
+        <package name="com.miguelet.miguelet.test.*" />
+    </packages>
+    <classes>
+        <class name="com.miguelet.miguelet.TestApi"/>
+    </classes>
+
+</test>
+</suite>
